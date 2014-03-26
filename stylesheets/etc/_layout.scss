@@ -85,13 +85,20 @@ header {
 	// padding-bottom: 30px;
 	h3 { margin: 0 0 .25em; }
 }
-.feature {
-	margin-bottom: 30px;
-	padding-bottom: 30px;
-	background: url("/etc/sites/all/themes/etc3/images/diagonal.png") repeat-x bottom;
-	p { font-size: 14px; }
-	img { margin-bottom: .5em; }
+.home-primary {
+	@include make-sm-column(8);
 }
+.home-secondary {
+	@include make-sm-column(4);
+	.block {
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+		background: url("/etc/sites/all/themes/etc3/images/diagonal.png") repeat-x bottom;
+		p { font-size: 14px; }
+		img { margin-bottom: .5em; }
+	}
+}
+
 
 /* Footer */
 /*------------------------------*/
@@ -122,6 +129,12 @@ footer {
 	a:hover { color: white; }
 	p { font-size: 14px; }
 	img { border: 0; }
+}
+.footer-primary {
+	@include make-sm-column(8);
+}
+.footer-secondary {
+	@include make-sm-column(4);
 }
 
 /* Sidebar images */

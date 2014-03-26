@@ -56,7 +56,7 @@
 <section class="main-content">
   <div class="container">
     <div class="row">
-      <div class="col-sm-8">
+      <div class="home-primary">
         <?php print render($page['highlighted']); ?>
         <?php print $messages; ?>
         <?php print render($tabs); ?>
@@ -69,7 +69,7 @@
         }?>
         <?php print render($page['home-primary']); ?>
       </div>
-      <div class="col-sm-4">
+      <div class="home-secondary">
         <?php print render($page['home-secondary']); ?>
       </div>
     </div>
@@ -80,10 +80,10 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-sm-8">
+      <div class="footer-primary">
         <?php print render($page['footer-primary']); ?>
       </div>
-      <div class="col-sm-4 text-right">
+      <div class="footer-secondary text-right">
         <?php print render($page['footer-secondary']); ?>
       </div>
     </div>
