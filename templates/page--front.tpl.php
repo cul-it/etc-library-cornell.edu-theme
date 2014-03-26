@@ -91,3 +91,10 @@
 </footer>
 
 <?php print render($page['bottom']); ?>
+
+<script type="text/javascript">
+  jQuery(document).ready(function() { 
+  var randomImages = ['kubotacowley1980etc','linhardtetc','paiketcclass1972','peermeryl1etc']; 
+  var rndNum = Math.floor(Math.random() * randomImages.length); 
+  jQuery("header").css({ background: "url('/etc/sites/all/themes/etc3/images/background/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
+</script>
