@@ -11,12 +11,12 @@ regions[highlighted]    	= 'Highlighted'
 regions[help]           	= 'Help'
 regions[content]        	= 'Content'
 regions[sidebar]  			= 'Sidebar'
-regions[footer_primary] 	= 'Footer primary'
-regions[footer_secondary] 	= 'Footer secondary'
+regions[footer-primary] 	= 'Footer primary'
+regions[footer-secondary] 	= 'Footer secondary'
 
 ; Home page regions
-regions[home_primary]		= 'Home page primary content'
-regions[home_secondary]		= 'Home page secondary content'
+regions[home-primary]		= 'Home page primary content'
+regions[home-secondary]		= 'Home page secondary content'
 
 
 
