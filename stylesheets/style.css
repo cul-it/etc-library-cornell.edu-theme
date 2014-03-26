@@ -6868,7 +6868,7 @@ footer {
     display: block !important; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .front .navbar .nav {
+  .front .navbar .navbar-nav {
     margin-top: 250px; }
 
   .navigation {
