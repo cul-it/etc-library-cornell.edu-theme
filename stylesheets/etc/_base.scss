@@ -1,0 +1,81 @@
+body {
+	font-family: $baseFontFamily;
+	font-weight: 400;
+	color: $textColorDark;
+	background: #333;
+}
+
+// body.home {
+// 	background: #333 url("../images/background/higgins.jpg") no-repeat;
+// 	-webkit-background-size: cover;
+// 	-moz-background-size: cover;
+// 	-o-background-size: cover;
+// 	background-size: cover;
+// }
+// body.artists {
+// 	background: #333 url("../images/background/boop3.jpg") no-repeat;
+// 	-webkit-background-size: cover;
+// 	-moz-background-size: cover;
+// 	-o-background-size: cover;
+// 	background-size: cover;
+// }
+
+/* Links */
+/*------------------------------*/
+a { color: $teal; }
+a:visited { background: white; }
+a:hover { 
+	background: $teal;
+	color: white;
+	text-decoration: none; }
+a:active { 
+	color: $teal;
+	background: white; }
+
+a.img-link:hover { background: inherit; }
+
+/* Typography */
+/*------------------------------*/
+
+h2, h3, h4, h5 { font-weight: 400; }
+h2 {
+	text-transform: uppercase;
+	color: black;
+	margin: 0 0 1em;
+	padding-bottom: 20px;
+	background: url("/sites/all/themes/etc3/images/diagonal.png") repeat-x bottom; }
+h3 {
+	text-transform: uppercase;
+	font-size: 28px;
+	margin: 0 0 1em; }
+h4 {
+	text-transform: uppercase;
+	font-size: 20px; }
+p, li { line-height: 1.75em; }
+
+/* Images */
+/*------------------------------*/
+img { 
+	max-width: 100%;
+	border: 5px solid $paleTeal;
+}
+
+/* Miscellaneous */
+/*------------------------------*/
+.main-content {
+	.caption { 
+  	color: $mediumGray;
+  	margin-top: .5em;
+  	// font-size: .75em;
+  }
+}
+.emphasize { font-size: 150%; }
+
+/* IE8 */
+/*------------------------------*/
+// .ie7,
+// .ie8 {
+// 	.site-title {
+// 		// h1 { font-size: 2em; }
+// 	}
+// }
