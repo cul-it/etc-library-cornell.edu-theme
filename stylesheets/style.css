@@ -6673,7 +6673,7 @@ header {
   -o-background-size: cover !important;
   background-size: cover !important; }
 
-.home header {
+.front header {
   min-height: 220px !important; }
 
 .artists header {
@@ -6829,7 +6829,7 @@ footer {
       box-shadow: none;
       color: black; }
 
-.home .navbar .nav {
+.front .navbar .nav {
   margin-top: 0; }
 
 .navbar-collapse {
@@ -6868,7 +6868,7 @@ footer {
     display: block !important; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .home .navbar .nav {
+  .front .navbar .nav {
     margin-top: 250px; }
 
   .navigation {

@@ -37,7 +37,7 @@
 		}
 	}
 }
-.home {
+.front {
 	.navbar {
 		.nav { margin-top: 0; }
 	}
@@ -93,7 +93,7 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md) {
-	.home {
+	.front {
 		.navbar {
 			.nav { margin-top: 250px; }
 		}

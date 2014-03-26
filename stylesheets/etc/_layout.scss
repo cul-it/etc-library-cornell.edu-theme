@@ -8,7 +8,7 @@ header {
 	-o-background-size: cover !important;
 	background-size: cover !important;
 }
-.home {
+.front {
 	header {
 		min-height: 220px !important;
 	}
@@ -157,11 +157,6 @@ footer {
 @media (min-width: $screen-sm) {
 	header {
 		padding: 35px 0 25px;
-	}
-	.home {
-		header {
-			// min-height: 520px !important;
-		}
 	}
 	.site-title {
 		h1 { 
