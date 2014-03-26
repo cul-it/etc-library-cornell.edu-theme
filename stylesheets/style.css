@@ -6805,12 +6805,12 @@ footer {
 
 .navbar {
   margin-bottom: 0; }
-  .navbar .nav {
+  .navbar .navbar-nav {
     margin: 25px 0 0 -25px; }
-    .navbar .nav li {
+    .navbar .navbar-nav li {
       float: none;
       display: inline; }
-      .navbar .nav li a {
+      .navbar .navbar-nav li a {
         text-shadow: 0 0 0;
         padding: 10px 20px;
         margin: 0 0 10px 10px;
@@ -6818,11 +6818,11 @@ footer {
         background: #15a383;
         color: white;
         display: inline-block; }
-      .navbar .nav li a:hover {
+      .navbar .navbar-nav li a:hover {
         background: white;
         color: black; }
-    .navbar .nav li.active a,
-    .navbar .nav li.active a:hover {
+    .navbar .navbar-nav li.active a,
+    .navbar .navbar-nav li.active a:hover {
       background: white;
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
