@@ -53,7 +53,7 @@
   </div>
 </header>
 
-<section class="main-content">
+<section class="main-content" id="maincontent">
   <div class="container">
     <?php print render($breadcrumb); ?>
     <?php print render($page['highlighted']); ?>
@@ -63,10 +63,36 @@
     <?php if ($action_links): ?>
       <ul class="action-links"><?php print render($action_links); ?></ul>
     <?php endif; ?>
-    <?php if ($title): ?>
-      <h2><?php print $title; ?></h2>
+
+    <?php
+      // Render the sidebars to see if there's anything in them.
+      $sidebar  = render($page['sidebar']);
+    ?>
+
+    <?php // if there is a sidebar, then create two column layout ?>
+    <?php if ($sidebar): ?>
+      <div class="row">
+        <div class="main-text">
+          <?php if ($title): ?>
+            <h2><?php print $title; ?></h2>
+          <?php endif; ?>
+          <?php print render($page['content']); ?>
+        </div><!--/main-text-->
+
+        <div class="sidebar">
+          <?php print render($page['sidebar']); ?>
+        </div><!--/sidebar-->
+
+      </div>
+
+    <?php // if no sidebar, then create one column layout ?>
+    <?php else: ?>
+      <?php if ($title): ?>
+        <h2><?php print $title; ?></h2>
+      <?php endif; ?>
+      <?php print render($page['content']); ?>
     <?php endif; ?>
-    <?php print render($page['content']); ?>
+
   </div>
 </section>
 

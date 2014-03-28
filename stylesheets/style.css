@@ -6699,6 +6699,32 @@ header {
   padding: 50px 0;
   background: white; }
 
+.main-text {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .main-text {
+      float: left;
+      width: 66.66667%; } }
+  @media (min-width: 768px) {
+    .main-text {
+      left: 33.33333%; } }
+
+.sidebar {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .sidebar {
+      float: left;
+      width: 25%; } }
+  @media (min-width: 768px) {
+    .sidebar {
+      right: 66.66667%; } }
+
 /* Home page */
 /*------------------------------*/
 .intro-text {

@@ -47,9 +47,20 @@ header {
 	padding: 50px 0;
 	background: white;
 }
-// .home {
-// 	.main-content { padding: 20px 0; }
-// }
+.main-text {
+	@include make-sm-column(8);
+	@include make-sm-column-push(4);
+	// padding-bottom: 30px;
+	// margin-top: 15px;
+}
+
+.sidebar {
+	@include make-sm-column(3);
+	@include make-sm-column-pull(8);
+	// padding-left: 15px;
+	// padding-top: 20px;
+	// border-top: 3px solid $teal;
+}
 
 /* Home page */
 /*------------------------------*/
