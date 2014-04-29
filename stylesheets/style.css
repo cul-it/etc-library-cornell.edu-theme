@@ -6564,7 +6564,8 @@ p, li {
 /*------------------------------*/
 img {
   max-width: 100%;
-  border: 5px solid #d6edee; }
+  border: 1px solid #e7aa01;
+  padding: 5px; }
 
 /* Miscellaneous */
 /*------------------------------*/
