@@ -6570,7 +6570,9 @@ img {
 /*------------------------------*/
 .main-content .caption {
   color: #4d4e54;
-  margin-top: .5em; }
+  margin-top: .5em;
+  font-size: 12px;
+  text-align: center; }
 
 .emphasize {
   font-size: 150%; }
@@ -6856,12 +6858,6 @@ footer {
 .img-right {
   margin: 0 0 20px 20px;
   width: 240px; }
-  .img-right img {
-    max-width: 100%; }
-
-.caption {
-  font-size: 12px;
-  color: #4d4e54; }
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
