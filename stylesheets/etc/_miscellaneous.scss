@@ -13,10 +13,13 @@
 // -------------------------//
 .breadcrumb {
 	background-color: white;
-	font-size: 12px;
 	padding: 0;
 	margin-bottom: 40px;
 	a {
 		color: $mediumGray;
+		font-size: 12px;
+	}
+	a:hover {
+		background: white;
 	}
 }

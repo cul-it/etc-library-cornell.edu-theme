@@ -6947,8 +6947,10 @@ footer {
 
 .breadcrumb {
   background-color: white;
-  font-size: 12px;
   padding: 0;
   margin-bottom: 40px; }
   .breadcrumb a {
-    color: #4d4e54; }
+    color: #4d4e54;
+    font-size: 12px; }
+  .breadcrumb a:hover {
+    background: white; }
