@@ -15,11 +15,14 @@
 	background-color: white;
 	padding: 0;
 	margin-bottom: 40px;
+	li {
+		font-size: 12px;
+	}
 	a {
 		color: $mediumGray;
-		font-size: 12px;
 	}
 	a:hover {
 		background: white;
+		color: black;
 	}
 }
