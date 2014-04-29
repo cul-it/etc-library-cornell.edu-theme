@@ -6947,4 +6947,8 @@ footer {
 
 .breadcrumb {
   background-color: white;
-  font-size: 12px; }
+  font-size: 12px;
+  padding: 0;
+  margin-bottom: 40px; }
+  .breadcrumb a {
+    color: #4d4e54; }
