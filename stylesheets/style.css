@@ -6922,7 +6922,7 @@ footer {
 
 .sidebar li {
   line-height: 1em; }
-.sidebar a:hover {
+.sidebar .nav > li > a:hover {
   background: #15a383;
   color: white; }
 

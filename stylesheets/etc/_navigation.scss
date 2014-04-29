@@ -62,7 +62,7 @@
 	li {
 		line-height: 1em;
 	}
-	a:hover {
+	.nav > li > a:hover {
 		background: $teal;
 		color: white;
 	}
