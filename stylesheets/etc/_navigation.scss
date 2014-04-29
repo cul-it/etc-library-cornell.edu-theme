@@ -63,7 +63,6 @@
 		line-height: 1em;
 	}
 	.nav > li > a:hover {
-		// background: $teal;
 		color: black;
 	}
 	.active {
@@ -71,6 +70,9 @@
 			background: $teal;
 			color: white;
 		}
+	}
+	.nav > li.active > a:hover {
+		color: white;
 	}
 }
 // .sidebar-nav {
