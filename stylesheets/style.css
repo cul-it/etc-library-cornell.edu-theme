@@ -6925,7 +6925,7 @@ footer {
 .sidebar .nav > li > a:hover {
   color: black; }
 .sidebar .nav .active a, .sidebar .nav .active a:hover {
-  background: #15a383;
+  background: #e7aa01;
   color: white; }
 
 /* Small devices (tablets, 768px and up) */
