@@ -6924,7 +6924,8 @@ footer {
   list-style: none;
   margin-left: 0; }
   .sidebar-nav li {
-    margin-bottom: .25em; }
+    margin-bottom: .25em;
+    line-height: 1em; }
   .sidebar-nav a {
     display: inline-block;
     background: #efebeb;

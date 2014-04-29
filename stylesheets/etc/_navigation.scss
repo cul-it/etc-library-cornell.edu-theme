@@ -61,7 +61,10 @@
 .sidebar-nav {
 	list-style: none;
 	margin-left: 0;
-	li { margin-bottom: .25em; }
+	li { 
+		margin-bottom: .25em;
+		line-height: 1em;
+	}
 	a {
 		display: inline-block;
 		background: $paleGray;
