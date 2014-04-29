@@ -67,7 +67,7 @@
 		color: black;
 	}
 	.active {
-		a {
+		a, a:hover {
 			background: $teal;
 			color: white;
 		}
