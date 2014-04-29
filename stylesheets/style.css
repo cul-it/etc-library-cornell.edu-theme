@@ -6931,7 +6931,7 @@ footer {
   font-size: 14px; }
   .sidebar h2 a, .sidebar h2 a:hover {
     color: black;
-    background: white; }
+    background: #4d4e54; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
