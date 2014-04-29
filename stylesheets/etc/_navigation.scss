@@ -62,6 +62,10 @@
 	li {
 		line-height: 1em;
 	}
+	a:hover {
+		background: $teal;
+		color: white;
+	}
 }
 // .sidebar-nav {
 // 	list-style: none;

@@ -6922,6 +6922,9 @@ footer {
 
 .sidebar li {
   line-height: 1em; }
+.sidebar a:hover {
+  background: #15a383;
+  color: white; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
