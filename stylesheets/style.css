@@ -6855,14 +6855,6 @@ footer {
   column-count: 3;
   column-gap: 20; }
 
-.img-right {
-  margin: 0 0 20px 20px;
-  width: 240px; }
-
-.img-center {
-  margin: 20px 0;
-  text-align: center; }
-
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
@@ -6945,3 +6937,14 @@ footer {
   .navigation {
     text-align: left; } }
 /* Large devices (large desktops, 1200px and up) */
+.img-right {
+  margin: 0 0 20px 20px;
+  width: 240px; }
+
+.img-center {
+  margin: 20px 0;
+  text-align: center; }
+
+.breadcrumbs {
+  background-color: white;
+  font-size: 12px; }
