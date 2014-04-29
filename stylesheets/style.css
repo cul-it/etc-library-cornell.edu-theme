@@ -6924,7 +6924,7 @@ footer {
   line-height: 1em; }
 .sidebar .nav > li > a:hover {
   color: black; }
-.sidebar .active a, .sidebar .active a:hover {
+.sidebar .nav .active a, .sidebar .nav .active a:hover {
   background: #15a383;
   color: white; }
 

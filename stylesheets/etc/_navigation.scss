@@ -65,14 +65,13 @@
 	.nav > li > a:hover {
 		color: black;
 	}
-	.active {
-		a, a:hover {
-			background: $teal;
-			color: white;
+	.nav {
+		.active {
+			a, a:hover {
+				background: $teal;
+				color: white;
+			}
 		}
-	}
-	.nav > li.active > a:hover {
-		color: white;
 	}
 }
 // .sidebar-nav {
