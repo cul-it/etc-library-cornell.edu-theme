@@ -6923,6 +6923,8 @@ footer {
 .sidebar li {
   line-height: 1em; }
 .sidebar .nav > li > a:hover {
+  color: black; }
+.sidebar .nav > li.active > a {
   background: #15a383;
   color: white; }
 
