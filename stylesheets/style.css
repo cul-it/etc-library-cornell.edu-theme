@@ -6899,11 +6899,11 @@ footer {
         color: black; }
     .navbar .navbar-nav li.active-trail a,
     .navbar .navbar-nav li.active-trail a:hover {
-      background: white;
+      background: #e7aa01;
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
       box-shadow: none;
-      color: black; }
+      color: white; }
 
 .front .navbar .nav {
   margin-top: 0; }
