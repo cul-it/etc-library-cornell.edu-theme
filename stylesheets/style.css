@@ -6897,8 +6897,8 @@ footer {
       .navbar .navbar-nav li a:hover {
         background: white;
         color: black; }
-    .navbar .navbar-nav li.active a,
-    .navbar .navbar-nav li.active a:hover {
+    .navbar .navbar-nav li.active-trail a,
+    .navbar .navbar-nav li.active-trail a:hover {
       background: white;
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
