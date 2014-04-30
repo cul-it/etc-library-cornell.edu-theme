@@ -6562,7 +6562,8 @@ p, li {
 
 blockquote {
   line-height: 1.8em;
-  color: #4d4e54; }
+  color: #4d4e54;
+  border-color: #d6edee; }
 
 /* Images */
 /*------------------------------*/
