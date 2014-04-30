@@ -6950,6 +6950,10 @@ footer {
   margin: 20px 0;
   text-align: center; }
 
+.img-left {
+  margin: 0 20px 20px 0;
+  width: 240px; }
+
 .breadcrumb {
   background-color: white;
   padding: 0;
