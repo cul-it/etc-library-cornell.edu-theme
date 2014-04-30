@@ -6560,6 +6560,10 @@ p, li {
   font-size: 16px;
   line-height: 2em; }
 
+blockquote {
+  line-height: 1.8em;
+  color: #4d4e54; }
+
 /* Images */
 /*------------------------------*/
 img {
