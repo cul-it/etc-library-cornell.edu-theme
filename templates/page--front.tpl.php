@@ -13,21 +13,6 @@
           </div>
         </div>
       </div>
-      <div class="search-box">
-        <button type="button" class="search-toggle" data-toggle="collapse" data-target=".search-collapse">
-          <span class="sr-only">Toggle search</span>
-          <i class="fa fa-search"></i>
-        </button>
-        <div class="collapse search-collapse">
-          <?php print render($page['cornell-header']); ?>
-          <!-- <form class="form-inline" role="form">
-            <div class="form-group">
-              <label class="sr-only" for="search-query">Search</label>
-              <input type="text" class="form-control search-input" id="search-query" placeholder="Search">
-            </div>
-          </form> -->
-        </div>
-      </div>
     </div> <!-- /row -->
   </div> <!-- /container -->
 </section>
