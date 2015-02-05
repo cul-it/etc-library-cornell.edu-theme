@@ -54,6 +54,9 @@
         }?>
         <?php print render($page['home-primary']); ?>
       </div>
+      <div class="home-secondary">
+        <?php print render($page['home-secondary']); ?>
+      </div>
     </div>
     
   </div>
