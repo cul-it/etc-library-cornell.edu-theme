@@ -6953,14 +6953,18 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .search-collapse.collapse {
-    display: block !important; } }
+    display: block !important; }
+
+  .navigation {
+    text-align: left;
+    margin-top: 1em; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .front .navbar .navbar-nav {
     margin-top: 250px; }
 
   .navigation {
-    text-align: left; } }
+    margin-top: 0; } }
 /* Large devices (large desktops, 1200px and up) */
 .img-right {
   margin: 0 0 20px 20px;

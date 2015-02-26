@@ -115,6 +115,10 @@
 	.search-collapse.collapse {
 		display: block !important;
 	}
+	.navigation {
+		text-align: left;
+		margin-top: 1em;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -125,11 +129,10 @@
 		}
 	}
 	.navigation {
-		text-align: left;
+		margin-top: 0;
 	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg) {
-
 }
