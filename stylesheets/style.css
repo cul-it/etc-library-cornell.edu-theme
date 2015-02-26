@@ -6770,7 +6770,10 @@ header {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  background: url("/etc/sites/all/themes/etc3/images/diagonal.png") repeat-x bottom; }
   @media (min-width: 768px) {
     .home-primary {
       float: left;
