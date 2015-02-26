@@ -6513,15 +6513,15 @@ body {
 /* Links */
 /*------------------------------*/
 a {
-  color: #15a383; }
+  color: #15a383;
+  text-decoration: underline; }
 
 a:visited {
   background: white; }
 
 a:hover {
   background: #15a383;
-  color: white;
-  text-decoration: none; }
+  color: white; }
 
 a:active {
   color: #15a383;
