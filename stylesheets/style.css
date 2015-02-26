@@ -6980,4 +6980,12 @@ footer {
     background: white;
     color: black; }
 
+.btn-etc {
+  background: #15a383;
+  border-radius: 0;
+  color: white; }
+
+.btn-etc:hover {
+  background: black; }
+
 /*# sourceMappingURL=style.css.map */
