@@ -41,7 +41,7 @@ header {
 }
 .secondary-brand,
 .secondary-brand:visited {
-	font-size: 16px;
+	font-size: 14px;
 	display: inline-block;
 	background: $charcoalGray;
 	padding: 10px;
@@ -192,7 +192,7 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
 	header {
-		padding: 35px 0 25px;
+		padding: 0 0 25px;
 	}
 	.site-title {
 		h1 { 
@@ -202,6 +202,10 @@ footer {
 				background: url("/etc/sites/all/themes/etc3/images/etc-logo.png") no-repeat;
 			}
 		}
+	}
+	.secondary-brand,
+	.secondary-brand:visited {
+		font-size: 14px;
 	}
 }
 

@@ -6712,7 +6712,7 @@ header {
 
 .secondary-brand,
 .secondary-brand:visited {
-  font-size: 16px;
+  font-size: 14px;
   display: inline-block;
   background: #313236;
   padding: 10px;
@@ -6885,12 +6885,16 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   header {
-    padding: 35px 0 25px; }
+    padding: 0 0 25px; }
 
   .site-title h1 a {
     width: 421px;
     height: 111px;
-    background: url("/etc/sites/all/themes/etc3/images/etc-logo.png") no-repeat; } }
+    background: url("/etc/sites/all/themes/etc3/images/etc-logo.png") no-repeat; }
+
+  .secondary-brand,
+  .secondary-brand:visited {
+    font-size: 14px; } }
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 .navigation {
