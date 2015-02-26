@@ -6984,7 +6984,8 @@ footer {
 .btn-etc:visited {
   background: #15a383;
   border-radius: 0;
-  color: white; }
+  color: white;
+  font-size: 18px; }
 
 .btn-etc:hover {
   background: black; }
