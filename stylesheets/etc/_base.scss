@@ -11,14 +11,12 @@ a {
 	color: $teal;
 	text-decoration: underline;
 }
-a:visited { background: white; }
-a:hover { 
-	background: $teal;
-	color: white;
-}
+// a:visited {
+// 	background: white; }
+a:hover,
 a:active { 
-	color: $teal;
-	background: white; }
+	color: black;
+}
 
 a.img-link:hover { background: inherit; }
 
