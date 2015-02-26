@@ -6702,10 +6702,12 @@ header {
   display: inline-block;
   background: #313236;
   padding: 10px;
-  color: white; }
+  color: white;
+  text-decoration: none; }
 
 .secondary-brand:hover {
-  background: #e7aa01; }
+  background: #e7aa01;
+  text-decoration: none; }
 
 /* Main content on sub pages */
 /*------------------------------*/
@@ -6904,7 +6906,8 @@ footer {
         text-transform: uppercase;
         background: #15a383;
         color: white;
-        display: inline-block; }
+        display: inline-block;
+        text-decoration: none; }
       .navbar .navbar-nav li a:hover {
         background: white;
         color: black; }
