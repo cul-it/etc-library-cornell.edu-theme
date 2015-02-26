@@ -6718,6 +6718,9 @@ header {
   padding: 10px;
   color: white; }
 
+.secondary-brand:hover {
+  background: #e7aa01; }
+
 /* Main content on sub pages */
 /*------------------------------*/
 .main-content {
