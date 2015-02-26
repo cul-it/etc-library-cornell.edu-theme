@@ -6710,9 +6710,10 @@ header {
   text-transform: uppercase;
   margin-top: 55px; }
 
-.secondary-brand {
+.secondary-brand,
+.secondary-brand:visited {
   font-size: 16px;
-  display: block;
+  display: inline-block;
   background: #313236;
   padding: 10px;
   color: white; }
