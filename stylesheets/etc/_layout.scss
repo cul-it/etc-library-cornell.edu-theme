@@ -109,9 +109,11 @@ header {
 }
 .home-primary {
 	@include make-sm-column(8);
-	margin-bottom: 30px;
-	padding-bottom: 30px;
-	background: url("/etc/sites/all/themes/etc3/images/diagonal.png") repeat-x bottom;
+	.block {
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+		background: url("/etc/sites/all/themes/etc3/images/diagonal.png") repeat-x bottom;
+	}
 }
 .home-secondary {
 	@include make-sm-column(4);

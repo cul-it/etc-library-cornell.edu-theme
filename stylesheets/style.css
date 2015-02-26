@@ -6770,14 +6770,15 @@ header {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
-  background: url("/etc/sites/all/themes/etc3/images/diagonal.png") repeat-x bottom; }
+  padding-right: 15px; }
   @media (min-width: 768px) {
     .home-primary {
       float: left;
       width: 66.66667%; } }
+  .home-primary .block {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    background: url("/etc/sites/all/themes/etc3/images/diagonal.png") repeat-x bottom; }
 
 .home-secondary {
   position: relative;
