@@ -6980,7 +6980,8 @@ footer {
     background: white;
     color: black; }
 
-.btn-etc {
+.btn-etc,
+.btn-etc:visited {
   background: #15a383;
   border-radius: 0;
   color: white; }
