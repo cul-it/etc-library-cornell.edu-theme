@@ -7006,6 +7006,7 @@ footer {
   text-decoration: none; }
 
 .btn-etc:hover {
-  background: black; }
+  background: black;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
