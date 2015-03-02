@@ -85,10 +85,10 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-sm-8">
+      <div class="footer-primary">
         <?php print render($page['footer-primary']); ?>
       </div>
-      <div class="col-sm-4">
+      <div class="footer-secondary">
         <?php print render($page['footer-secondary']); ?>
       </div>
     </div>

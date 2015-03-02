@@ -6841,7 +6841,7 @@ footer {
   @media (min-width: 768px) {
     .footer-primary {
       float: left;
-      width: 66.66667%; } }
+      width: 75%; } }
 
 .footer-secondary {
   position: relative;
@@ -6851,7 +6851,7 @@ footer {
   @media (min-width: 768px) {
     .footer-secondary {
       float: left;
-      width: 33.33333%; } }
+      width: 25%; } }
 
 /* Sidebar images */
 /*------------------------------*/

@@ -169,10 +169,10 @@ footer {
 	img { border: 0; }
 }
 .footer-primary {
-	@include make-sm-column(8);
+	@include make-sm-column(9);
 }
 .footer-secondary {
-	@include make-sm-column(4);
+	@include make-sm-column(3);
 }
 
 /* Sidebar images */
