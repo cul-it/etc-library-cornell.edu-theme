@@ -6819,7 +6819,8 @@ footer {
         color: white; }
     footer .nav a {
       padding: 0; }
-    footer .nav a:hover {
+    footer .nav a:hover,
+    footer .nav a:focus {
       background: inherit;
       color: white;
       text-decoration: underline; }

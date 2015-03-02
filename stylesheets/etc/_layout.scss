@@ -156,7 +156,8 @@ footer {
 		a {
 			padding: 0;
 		}
-		a:hover {
+		a:hover,
+		a:focus {
 			background: inherit;
 			color: white;
 			text-decoration: underline;
