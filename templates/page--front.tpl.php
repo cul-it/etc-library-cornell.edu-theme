@@ -69,7 +69,7 @@
       <div class="footer-primary">
         <?php print render($page['footer-primary']); ?>
       </div>
-      <div class="footer-secondary text-right">
+      <div class="footer-secondary">
         <?php print render($page['footer-secondary']); ?>
       </div>
     </div>

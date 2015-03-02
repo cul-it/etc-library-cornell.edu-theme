@@ -88,7 +88,7 @@
       <div class="col-sm-8">
         <?php print render($page['footer-primary']); ?>
       </div>
-      <div class="col-sm-4 text-right">
+      <div class="col-sm-4">
         <?php print render($page['footer-secondary']); ?>
       </div>
     </div>
