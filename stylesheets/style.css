@@ -6820,7 +6820,8 @@ footer {
     footer .nav a {
       padding: 0; }
     footer .nav a:hover {
-      background: inherit; }
+      background: inherit;
+      color: white; }
   footer a {
     color: #b3b3b5; }
   footer a:hover {
