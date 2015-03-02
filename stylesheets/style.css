@@ -6821,7 +6821,8 @@ footer {
       padding: 0; }
     footer .nav a:hover {
       background: inherit;
-      color: white; }
+      color: white;
+      text-decoration: underline; }
   footer a {
     color: #b3b3b5; }
   footer a:hover {
