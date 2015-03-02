@@ -153,6 +153,9 @@ footer {
 			color: white;
 			a { color: white; }
 		}
+		a {
+			padding: 0;
+		}
 	}
 	a { color: $lightGray; }
 	a:hover { color: white; }
