@@ -6801,6 +6801,9 @@ footer {
   footer .container {
     background: #313236;
     padding: 30px 0; }
+  footer .row {
+    margin-left: 0;
+    margin-right: 0; }
   footer .nav {
     list-style: none;
     margin: 0 0 1em;
@@ -6824,9 +6827,6 @@ footer {
       background: inherit;
       color: white;
       text-decoration: underline; }
-    footer .nav .row {
-      margin-left: 0;
-      margin-right: 0; }
   footer a {
     color: #b3b3b5; }
   footer a:hover {
