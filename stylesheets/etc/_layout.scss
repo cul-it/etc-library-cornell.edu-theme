@@ -162,6 +162,10 @@ footer {
 			color: white;
 			text-decoration: underline;
 		}
+		.row {
+			margin-left: 0;
+			margin-right: 0;
+		}
 	}
 	a { color: $lightGray; }
 	a:hover { color: white; }
@@ -225,6 +229,12 @@ footer {
 	}
 	.footer-secondary {
 		text-align: right;
+	}
+	footer {
+		.row {
+			margin-left: -15px;
+			margin-right: -15px;
+		}
 	}
 }
 

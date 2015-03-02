@@ -6824,6 +6824,9 @@ footer {
       background: inherit;
       color: white;
       text-decoration: underline; }
+    footer .nav .row {
+      margin-left: 0;
+      margin-right: 0; }
   footer a {
     color: #b3b3b5; }
   footer a:hover {
@@ -6889,7 +6892,11 @@ footer {
     font-size: 18px; }
 
   .footer-secondary {
-    text-align: right; } }
+    text-align: right; }
+
+  footer .row {
+    margin-left: -15px;
+    margin-right: -15px; } }
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 .navigation {
