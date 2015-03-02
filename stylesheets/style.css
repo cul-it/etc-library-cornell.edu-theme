@@ -7002,7 +7002,8 @@ footer {
   background: #15a383;
   border-radius: 0;
   color: white;
-  font-size: 18px; }
+  font-size: 18px;
+  text-decoration: none; }
 
 .btn-etc:hover {
   background: black; }
