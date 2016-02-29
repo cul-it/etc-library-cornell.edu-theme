@@ -370,6 +370,14 @@ footer {
   column-count: 3;
   column-gap: 20; }
 
+.main-content header {
+  background-image: none;
+  background-color: inherit;
+  padding: 0; }
+.main-content footer {
+  margin: 0;
+  background-color: inherit; }
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
