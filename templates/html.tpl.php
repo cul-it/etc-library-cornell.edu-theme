@@ -10,7 +10,6 @@
   <title><?php print $head_title; ?></title>
 
   <?php print $styles; ?>
-  <link href="/etc/sites/all/themes/etc3/stylesheets/style.css" rel="stylesheet">
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
     <script src="/sites/all/themes/etc3/javascripts/html5shiv.js"></script>
