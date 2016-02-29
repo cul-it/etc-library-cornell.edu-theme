@@ -21,7 +21,7 @@ regions[home-secondary]		= 'Home page secondary content'
 
 
 ; Stylesheets
-stylesheets[all][] = css/style.css
+stylesheets[all][] = stylesheets/style.css
 
 ; Scripts
 scripts[] = javascripts/respond.min.js
